@@ -20,7 +20,7 @@ function App() {
     <div className="App">
         <h1>Login Page</h1>
         {check===true && <p>Welcome, user!</p>}
-        {check===false && <p>Invalid username</p> }
+        {check===false && <p>Invalid username or password</p> }
         {!check &&
         <form onSubmit={(e)=>handleSubmit(e)}>
           <label>Username:<input type="text" placeholder="username" value={ipName} onChange={(e)=>setIpName(e.target.value)} required/></label><br/>
