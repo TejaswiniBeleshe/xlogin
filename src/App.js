@@ -14,6 +14,8 @@ function App() {
     }else{
       setCheck(false);
     }
+    setIpName('');
+    setIpPassword('');
   }
 
   return (
